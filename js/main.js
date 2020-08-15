@@ -33,3 +33,14 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 L.marker([-31.410237, -64.199145]).addTo(map);
 // .bindPopup("Aca tenes que elegir donde estan las farmacias, Hugo.")
 // .openPopup();
+
+// go up button
+const goUpBtn = document.querySelector(".goTopBtn");
+
+goUpBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
