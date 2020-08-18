@@ -1858,6 +1858,7 @@ footer .copyright::before {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 3rem 1rem;
   margin-bottom: 2rem;
+  border-radius: .75rem;
   -webkit-box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
           box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
@@ -1948,9 +1949,14 @@ footer .copyright::before {
 
 .contenedor-productos .contenido-productos .producto2 .imagen-producto2 {
   background-image: url(../img/verde-portrait.jpg);
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+}
+
+@media (orientation: landscape) {
+  .contenedor-productos .contenido-productos .producto2 .imagen-producto2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 
 .contenedor-productos .contenido-productos .producto3 .imagen-producto3 {
