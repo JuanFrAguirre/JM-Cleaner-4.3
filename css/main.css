@@ -420,6 +420,8 @@ header .nav-links.menuAbierto a:nth-child(6) {
   background-position: left;
   background-attachment: fixed;
   position: relative;
+  height: 100vh;
+  width: 100%;
   z-index: 5;
 }
 
@@ -840,7 +842,8 @@ header .nav-links.menuAbierto a:nth-child(6) {
   background-size: cover;
   background-position: 80%;
   background-attachment: fixed;
-  height: Min(80vh, 80rem);
+  height: 80vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
