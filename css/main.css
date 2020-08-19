@@ -1082,7 +1082,7 @@ footer .footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 footer .footer .mapa {
@@ -1100,7 +1100,7 @@ footer .footer .mapa {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 
 footer .footer .mapa h4 {
@@ -1188,7 +1188,7 @@ footer .footer .mapa .ver-listado:hover a {
 }
 
 footer .footer .redes {
-  padding-top: 7rem;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -1221,7 +1221,7 @@ footer .footer .redes .presentacion-redes {
   display: grid;
   -ms-grid-columns: 2fr 2fr;
       grid-template-columns: 2fr 2fr;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 @media (min-width: 300px) {
@@ -1299,18 +1299,18 @@ footer .footer .redes .presentacion-redes .links-redes a i {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   color: #fff;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 @media (min-width: 768px) {
   footer .footer .redes .presentacion-redes .links-redes a i {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
   footer .footer .redes .presentacion-redes .links-redes a i {
-    font-size: 5rem;
+    font-size: 4.25rem;
   }
 }
 
@@ -1395,7 +1395,7 @@ footer .footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 footer .footer .mapa {
@@ -1413,7 +1413,7 @@ footer .footer .mapa {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
 }
 
 footer .footer .mapa h4 {
@@ -1501,7 +1501,7 @@ footer .footer .mapa .ver-listado:hover a {
 }
 
 footer .footer .redes {
-  padding-top: 7rem;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -1534,7 +1534,7 @@ footer .footer .redes .presentacion-redes {
   display: grid;
   -ms-grid-columns: 2fr 2fr;
       grid-template-columns: 2fr 2fr;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 @media (min-width: 300px) {
@@ -1612,18 +1612,18 @@ footer .footer .redes .presentacion-redes .links-redes a i {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   color: #fff;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 @media (min-width: 768px) {
   footer .footer .redes .presentacion-redes .links-redes a i {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
   footer .footer .redes .presentacion-redes .links-redes a i {
-    font-size: 5rem;
+    font-size: 4.25rem;
   }
 }
 
@@ -1860,7 +1860,7 @@ footer .copyright::before {
   gap: 2rem;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 3rem 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   border-radius: .75rem;
   -webkit-box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
           box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
@@ -1924,7 +1924,7 @@ footer .copyright::before {
     padding: 1rem 2rem;
     width: 100%;
     padding: 0;
-    height: 30rem;
+    height: 25rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
